@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-E-Commerce/static/css/main.4f46c1f6.css",
+    "main.js": "/react-E-Commerce/static/js/main.fb849f85.js",
+    "static/js/787.d3befce1.chunk.js": "/react-E-Commerce/static/js/787.d3befce1.chunk.js",
+    "static/media/milada-vigerova-p8Drpg_duLw-unsplash.jpg": "/react-E-Commerce/static/media/milada-vigerova-p8Drpg_duLw-unsplash.e66705d5ad65aa707f49.jpg",
+    "static/media/davide-boscolo-gz9njd0zYbQ-unsplash.jpg": "/react-E-Commerce/static/media/davide-boscolo-gz9njd0zYbQ-unsplash.11074068150c1e48eb5e.jpg",
+    "static/media/md-salman-tWOz2_EK5EQ-unsplash.jpg": "/react-E-Commerce/static/media/md-salman-tWOz2_EK5EQ-unsplash.9bcd5234cdffeb261f0b.jpg",
+    "static/media/carlos-esteves-1MWbwTaeJIA-unsplash.jpg": "/react-E-Commerce/static/media/carlos-esteves-1MWbwTaeJIA-unsplash.2a7829308a42724ec8bf.jpg",
+    "static/media/undraw_Complete_design_re_h75h.png": "/react-E-Commerce/static/media/undraw_Complete_design_re_h75h.f1b3ccaad695324c21a8.png",
+    "static/media/undraw_Male_avatar_re_y880.png": "/react-E-Commerce/static/media/undraw_Male_avatar_re_y880.a5e09740a7c7a1e87abb.png",
+    "static/media/undraw_Personal_text_re_vqj3.png": "/react-E-Commerce/static/media/undraw_Personal_text_re_vqj3.105f704d297194ec0b6a.png",
+    "static/media/slick.svg": "/react-E-Commerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-E-Commerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-E-Commerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-E-Commerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-E-Commerce/index.html",
+    "main.4f46c1f6.css.map": "/react-E-Commerce/static/css/main.4f46c1f6.css.map",
+    "main.fb849f85.js.map": "/react-E-Commerce/static/js/main.fb849f85.js.map",
+    "787.d3befce1.chunk.js.map": "/react-E-Commerce/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f46c1f6.css",
+    "static/js/main.fb849f85.js"
+  ]
+}
