@@ -1,0 +1,78 @@
+:root{
+  --title:#F82A37;
+  --btn:#F82A37;
+  --navText:black;
+  --bigText:#FFFDFE;
+}
+.tableSec{
+    width: 100%;
+    padding: 150px 0px;
+}
+.table{
+    padding: 20px 0px;
+}
+.first-col{
+    display: flex;
+    align-items: center;
+    border-left: 2px solid var(--btn);
+    border-right: 2px solid var(--btn);
+}
+.first-col p{
+    width: 130px;
+    height: 50px;
+    overflow: auto;
+    margin-left: 10px;
+}
+.first-col button{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+.secCol{
+    padding-left: 20px;
+}
+td img{
+    width: 50px;
+}
+td input{
+    width: 60px;
+    height: 30px;
+    border: 2px solid var(--btn);
+    outline: none;
+}
+.first-row{
+    background-color: var(--btn);
+    color: white;
+}
+.first-row td{
+    padding: 10px 0px;
+    padding-left: 20px;
+}
+.last-col{
+    text-align: start;
+    border-right: 2px solid var(--btn);
+    border-left: 2px solid var(--btn);
+    padding-left: 20px;
+}
+.borderbottom{
+    border-bottom: 2px solid var(--btn);
+}
+.confirm{
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    color:white !important;
+    background-color: var(--btn);
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.confirm:hover{
+    color:var(--btn) !important;
+    background-color: transparent;
+    border: 1px solid var(--btn);
+}

@@ -1,0 +1,55 @@
+:root{
+  --title:#F82A37;
+  --btn:#F82A37;
+  --navText:black;
+  --bigText:#FFFDFE;
+}
+.Login{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid var(--btn);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.userImg{
+    width: 200px;
+}
+.logImg{
+    height: 300px;
+}
+.Login .row{
+    flex-wrap: wrap-reverse;
+}
+.Login form input{
+    width: 90%;
+    padding-left: 10px;
+    border: 1px solid var(--btn);
+    height: 40px;
+    color: var(--btn);
+    outline: none;
+}
+.submit{
+    background-color: var(--btn);
+    color: var(--bigText) !important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.submit:hover{
+    background-color: transparent;
+    color: var(--btn) !important;
+    border: 1px solid var(--btn);
+}

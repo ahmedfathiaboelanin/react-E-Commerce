@@ -1,0 +1,49 @@
+.product{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    margin-top: 20px;
+    border: 1px solid var(--btn);
+}
+.product img{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.product h6{
+    max-width: 100%;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.product .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 10px;
+}
+.rate{
+    color: gold;
+}
+.product button{
+    background-color: var(--btn);
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+}
+.product button:hover{
+    background-color: transparent;
+    border: 1px solid var(--btn);
+    color: var(--btn);
+}
+.product .badge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+

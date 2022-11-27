@@ -1,0 +1,91 @@
+:root{
+  --title:#F82A37;
+  --btn:#F82A37;
+  --navText:black;
+  --bigText:#FFFDFE;
+}
+.pop{
+    width: 90% !important;
+    padding: 100px 10px !important;
+    background-color: var(--bigText);
+    border: 2px solid var(--btn);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100010;
+    transform: translate(-50%,-50%);
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+@media (max-width:400px) {
+    .pop{
+        min-height: 90vh;
+        height: 200px;
+    overflow: auto;
+    }
+}
+.pop .closeIcon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: var(--btn);
+    cursor: pointer;
+    transition: .5s;
+}
+.closeIcon:hover{
+    background-color: var(--btn);
+    border-radius: 50%;
+    color: var(--bigText);
+
+}
+.pop img{
+    height: 200px;
+    max-width: 80%;
+}
+.pop p{
+    font-weight: bold;
+    
+    width: 100%;
+}
+.startIcons{
+    color: goldenrod;
+}
+.pop button{
+    background-color: var(--btn);
+    color: var(--bigText);
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.pop button:hover{
+    background-color: transparent;
+    border: 1px solid var(--btn);
+    color: var(--btn);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.counter{
+    display: flex;
+    flex-direction: column;
+}
+.amount{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.amount button{
+    font-size: 20px;
+}
+.no{
+    display: none;
+}

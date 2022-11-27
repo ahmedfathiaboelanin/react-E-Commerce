@@ -1,0 +1,14 @@
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+body{
+    padding: 65px 0px 0px;
+}

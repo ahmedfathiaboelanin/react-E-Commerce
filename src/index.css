@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+body {
+  background-color: var(--bigText);
+  font-family: 'DynaPuff', cursive;
+
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #F82A37;
+}
+::-webkit-scrollbar-track{
+  background-color: var(--bigText);
+}
+:root{
+  --title:#F82A37;
+  --btn:#F82A37;
+  --navText:black;
+  --bigText:#FFFDFE;
+}
+html{
+  scroll-behavior: smooth;
+}
+.none{
+  display: none;
+}

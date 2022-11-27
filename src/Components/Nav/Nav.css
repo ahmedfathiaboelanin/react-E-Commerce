@@ -1,0 +1,96 @@
+:root{
+  --title:#F82A37;
+  --btn:#F82A37;
+  --navText:black;
+  --bigText:#FFFDFE;
+}
+.white{
+    background-color: var(--bigText);
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 10000;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgb(141, 135, 135);
+}
+.cartIcon{
+    color: black;
+    font-size: 30px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.navlink{
+    position: relative;
+    font-size: 18px !important;
+    color: black !important;
+    margin: 0px 5px;
+    border-bottom: 0px solid transparent;
+    transition: all 1s !important;
+}
+.navlink::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: var(--btn);
+    transition: .5s all !important;
+}
+.navlink:hover::after{
+    /* border-bottom: 3px solid var(--btn); */
+    width: 100%;
+}
+.count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(25%);
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 10px;
+    background-color: var(--btn);
+}
+.login{
+    padding: 5px;
+    border-radius: 5px;
+    color:white !important;
+    background-color: var(--btn);
+}
+.logout{
+    padding: 5px !important;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white !important;
+    background-color: var(--btn);
+}
+#basic-nav-dropdown{
+    padding: 5px !important;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white !important;
+    background-color: var(--btn);   
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: .5s;
+}
+#basic-nav-dropdown:hover{
+    color:var(--btn) !important;
+    background-color: transparent;
+    border: 1px solid var(--btn);
+}
+.log{
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: .5s;
+    margin-left: 20px !important;
+}
+.log:hover{
+    color:var(--btn) !important;
+    background-color: transparent;
+    border: 1px solid var(--btn);
+}

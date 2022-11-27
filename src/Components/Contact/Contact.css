@@ -1,0 +1,62 @@
+.contact {
+  width: 100%;
+  min-height: calc(100vh - 65px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact form {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--btn);
+  gap: 20px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid var(--btn);
+}
+form textarea {
+  height: 200px;
+  padding-top: 10px;
+}
+form input {
+  height: 40px;
+}
+.contact form input[type="submit"] {
+  background-color: var(--btn);
+  color: var(--bigText);
+  transition: 0.5s;
+  font-weight: 600;
+}
+.contact form input[type="submit"]:hover {
+  background-color: transparent;
+  color: var(--btn);
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.face {
+  color: #1877f2;
+}
+.whats {
+  color: #2ac44d;
+}
+.insta {
+  color: #da0485;
+}
+.in {
+  color: #0A66C2;
+}
+.git {
+  color: #24292f;
+}
