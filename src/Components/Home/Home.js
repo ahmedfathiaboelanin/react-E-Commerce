@@ -91,7 +91,7 @@ function Home(props) {
     pauseOnHover: true,
   };
   return (
-    <div className="">
+    <div className="home">
       <Slider {...settings} className="">
         {sliderImg}
       </Slider>
